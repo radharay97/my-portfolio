@@ -1,0 +1,96 @@
+h1 {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.94px;
+    color: #0D0D0D;
+}
+h2 {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.3px; 
+    color: #0D0D0D;
+}
+h3 {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #0D0D0D;
+}
+h4 {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26.08px; 
+    letter-spacing: 2%;
+    color: #0D0D0D;
+}
+h5 {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 2%;
+    color: #0D0D0D;
+}
+h6 {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    color: #0D0D0D;
+}
+p {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2%;
+    color: #0D0D0D;
+}
+header {
+    background-color: #AFDAE9;
+    height: 140px;
+    width: auto;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+nav {
+    width: 73%
+    padding 1%;
+}
+ul.header {
+    display: inline-block;
+    margin-right: auto;
+}
+.logo {text-align: center;}
+.menu-text {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.3px;
+    color: #082650;
+    margin: 30px;
+}
+.hero {
+    height: 600px;
+    padding: 25px;
+}
+.intro {
+    display: inline-block;
+    justify-content: left;
+}
+.bio {
+    display: flex;
+    justify-content: center;
+}
+.caseStudies {padding: 50px;}
