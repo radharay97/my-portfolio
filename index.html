@@ -3,85 +3,79 @@
 <head>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;500;700&family=Noto+Sans+Gujarati:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;500;700&family=Noto+Sans+Gujarati:wght@600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
-    <header class="navigation">
-        <div class="inline-block logo">
-            <img src="Images/Logo.png" alt="logo"
-            width="124px"
-            height="121px">
+    <header>
+        <div class="logo">
+            <img src="Images/Logo.png" alt="logo" height="100%" width="100%">
         </div>
-        <nav class="inline-block">
-            <ul class="inline-block header">
-                <li class="inline-block menu-text">Work</li>
-                <li class="inline-block menu-text">About</li>
-            </ul>
+        <nav class="header">
+            <li class="menu-text-selected">Work</li>
+            <li class="menu-text">About</li>
         </nav>
     </header>
     <section class="hero">
-        <div class="intro">
-            <img src="Images/Home Page Photo.jpg" alt="My Photo"
-            width="450px"
-            height="530px">
+        <div class="profileimage">
+            <img src="Images/Home Page Photo.jpg" alt="My Photo" height="100%" width="100%">
         </div>
         <div class="intro">
-            <div class="bio">
-                <h1>Hi, I'm Radha,</h1>
-                <h3>a UX Designer with a background in Psychology. I am passionate about developing beautiful products that are driven by user insights. My strengths are in design thinking, user empathy, and collaboration.</h3>
-                <button>Resume</button>
-            </div>
+            <h1>Hi, I'm Radha,</h1>
+            <h3>a UX Designer with a background in Psychology. I am passionate about developing beautiful products that are driven by user insights. My strengths are in design thinking, user empathy, and collaboration.</h3>
+            <button>Resume</button>
         </div>
     </section>
     <section class="caseStudies">
         <h1>My Work</h1>
         <div class="casestudy">
-            <h2>Project90 Website Redesign</h2>
-            <h5>UX Research, UI/UX Design</h5>
-            <h3>Redesigning a homelessness non-profit’s site for their successful case model solution, responsive for web, tablet, and mobile.</h3>
+            <div class="summary">
+                <h2>Project90 Website Redesign</h2>
+                <h5>UX Research, UI/UX Design</h5>
+                <h3>Redesigning a homelessness non-profit’s site for their successful case model solution, responsive for web, tablet, and mobile.</h3>
+            </div>
             <div class="casestudyThumbnail">
-                <img src="Images/Project90 Case Study Thumbnail.png" alt="Project90 Redesign"
-                width="500px"
-                height="300px">
+                <img src="Images/Project90 Case Study Thumbnail.png" alt="Project90 Redesign" height="100%" width="100%">
             </div>
         </div>
         <div class="casestudy">
             <div class="casestudyThumbnail">
-                <img src="Images/DoI Case Study Thumbnail.png" alt="DoI Redesign"
-                width="500px"
-                height="300px">
+                <img src="Images/DoI Case Study Thumbnail.png" alt="DoI Redesign" height="100%" width="100%">
             </div>
-            <h2>DoI Website Redesign</h2>
-            <h5>Responsive Web Design</h5>
-            <h3>Redesigning a government agency’s website, responsive for web and mobile.</h3>
+            <div class="summary">
+                <h2>DoI Website Redesign</h2>
+                <h5>Responsive Web Design</h5>
+                <h3>Redesigning a government agency’s website, responsive for web and mobile.</h3>
+            </div>
         </div>
         <div class="casestudy">
-            <h2>Neighborly Mobile App Design</h2>
-            <h5>UX Research and Design</h5>
-            <h3>Designing an app to where neighbors can help neighbors, from ideation to mid-fidelity prototype.</h3>
+            <div class="summary">
+                <h2>Neighborly Mobile App Design</h2>
+                <h5>UX Research and Design</h5>
+                <h3>Designing an app to where neighbors can help neighbors, from ideation to mid-fidelity prototype.</h3>
+            </div>
             <div class="casestudyThumbnail">
-                <img src="Images/Neighborly Case Study Thumbnail.png" alt="Neighborly App Design"
-                width="500px"
-                height="300px">
+                <img src="Images/Neighborly Case Study Thumbnail.png" alt="Neighborly App Design" height="100%" width="100%">
             </div>
         </div>
     </section>
     <footer>
-        <p id="bold">Get in touch:</p>
-        <ul class="footer">
-            <li class="footer">radharay97@gmail.com</li>
-            <li class="footer">(703) 220-4256</li>
-            <li class="footer">LinkedIn</li>
-        </ul>
-        <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
-        <img src="Images/Footer Scroll Icon.png" alt=""
-        width="40px"
-        height="40px">
+        <div class="footer-right">
+            <p id="bold">Get in touch:</p>
+            <p>radharay97@gmail.com</p>
+            <p>(703) 220-4256</p>
+            <p>LinkedIn</p>
+        </div>
+        <div class="footer-left">
+            <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
+            <div class="scrollbutton">
+                <img src="Images/Footer Scroll Icon.png" alt="Back to Top">
+            </div>
+        </div>
     </footer>
 </body>
 </html>

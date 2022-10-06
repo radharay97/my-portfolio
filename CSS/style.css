@@ -4,6 +4,7 @@ h1 {
     font-size: 36px;
     line-height: 46.94px;
     color: #0D0D0D;
+    margin: 5px 0px;
 }
 h2 {
     font-family: 'Noto Sans Gujarati', sans-serif;
@@ -11,6 +12,7 @@ h2 {
     font-size: 24px;
     line-height: 31.3px; 
     color: #0D0D0D;
+    margin: 5px 0px;
 }
 h3 {
     font-family: 'Hind Vadodara', sans-serif;
@@ -18,6 +20,7 @@ h3 {
     font-size: 24px;
     line-height: 40px;
     color: #0D0D0D;
+    margin: 5px 0px;
 }
 h4 {
     font-family: 'Noto Sans Gujarati', sans-serif;
@@ -26,6 +29,7 @@ h4 {
     line-height: 26.08px; 
     letter-spacing: 2%;
     color: #0D0D0D;
+    margin: 5px 0px;
 }
 h5 {
     font-family: 'Hind Vadodara', sans-serif;
@@ -34,6 +38,7 @@ h5 {
     line-height: 36px;
     letter-spacing: 2%;
     color: #0D0D0D;
+    margin: 5px 0px;
 }
 h6 {
     font-family: 'Hind Vadodara', sans-serif;
@@ -42,6 +47,7 @@ h6 {
     line-height: 30px;
     letter-spacing: 3%;
     color: #0D0D0D;
+    margin: 5px 0px;
 }
 p {
     font-family: 'Hind Vadodara', sans-serif;
@@ -51,46 +57,188 @@ p {
     letter-spacing: 2%;
     color: #0D0D0D;
 }
-header {
-    background-color: #AFDAE9;
-    height: 140px;
-    width: auto;
+#bold {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2%;
+    color: #0D0D0D  
 }
-.inline-block {
-    display: inline-block;
-    vertical-align: bottom;
+button {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 2%;
+    color: #FCFFFE; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    gap: 10px; 
+    background-color: #307BB6;
+    border-radius: 23px;
+    border-color: #307BB6;
 }
-.logo {
-    width: 23%;
-    padding: 1%;
+.menu-text-selected {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.3px; 
+    color: #6D2650
 }
-nav {
-    width: 73%
-    padding 1%;
-}
-ul.header {
-    display: inline-block;
-    margin-right: auto;
-}
-.logo {text-align: center;}
 .menu-text {
     font-family: 'Noto Sans Gujarati', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    line-height: 31.3px;
-    color: #082650;
-    margin: 30px;
+    line-height: 31.3px; 
+    color: #082650
 }
+.footer {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2%;
+    color: #0D0D0D;
+}
+header {
+    background-color: #AFDAE9;
+    height: 121px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo {
+    height: 121px;
+    width: auto;
+    text-align: center;
+}
+nav {
+    box-sizing: border-box;
+    width: 167px;
+    display: flex;
+    justify-content: space-between;
+}
+.header li {list-style: none;}
 .hero {
-    height: 600px;
-    padding: 25px;
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: auto;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+    }
+.profileimage {
+    width: 45%;
+    height: 54%;
 }
 .intro {
-    display: inline-block;
-    justify-content: left;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+button {
+    align-self: center;
+    width: 121px;
+    height: 52px;
+    margin-top: 20px;
+}
+.caseStudies {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.caseStudies h1 {
+    align-self: center;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.casestudy {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.summary {
+    box-sizing: border-box;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.casestudyThumbnail {
+    width: 45%;
+    height: 30%;
+}
+.summary h2, h5 {align-self: center;}
+footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 85px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-right {
+    display: flex;
+    width: 42%;
+    justify-content: space-around;
+}
+.footer-left {
+    display: flex;
+    width: 42%;
+    justify-content: space-around;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    height: 485px;
+    margin-top: 140px;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutimage {
+    width: 40%;
+    height: auto;
+}
+.tagline {
+    margin-top: 20px;
 }
 .bio {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.caseStudies {padding: 50px;}
+.bio h5 {padding-bottom: 30px;}
+.h5 {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 2%;
+    color: #0D0D0D;
+}
