@@ -198,12 +198,15 @@ nav {
     margin: 25px;
 }
 .hero button {
-    align-self: center;
-    justify-self: center;
     width: 121px;
     height: 52px;
     margin-top: 20px;
     grid-area: button;
+}
+.download {
+    text-decoration: none;
+    align-self: center;
+    justify-self: center;
 }
 .caseStudies {
     display: flex;
@@ -259,7 +262,7 @@ nav {
         width: 100%;
         height: fit-content;
     }
-    button {
+    .download {
         align-self: center;
         justify-self: center;
     }
@@ -317,12 +320,16 @@ footer {
     width: 90%;
     justify-content: space-between;
 }
-footer > button {
+.scroll {
     height: 30px;
     width: 30px;
     background-color: #FCFFFE;
     border: none;
     float: right;
+}
+.scroll img {
+    height: 30px;
+    width: 30px;
 }
 @media only screen and (max-width: 1100px) {
     .footer-flex {
