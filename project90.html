@@ -1,37 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;500;700&family=Noto+Sans+Gujarati:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Salsa&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/Images/favicon.ico"/>
-    <title>Radha Ray</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/Images/favicon-16x16.png"/>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>P90 Redesign</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="/index"><img src="Images/Logo.png" alt="logo" height="100%" width="100%"></a>
+            <a href="/index"><img src="Images/Logo.svg" alt="logo" height="100%" width="100%"></a>
         </div>
-        <nav class="header">
-            <a href="/index" class="selected">Work</a>
-            <a href="/about" class="unselected">About</a>
+        <nav>
+            <a href="/index" class="header-links">Work</a>
+            <a href="/about" class="header-links">About</a>
+            <a class="button-primary" href="mailto:radharay97@gmail.com?subject=I saw your portfolio!&body=Hi Radha,">Email Me</a>
         </nav>
     </header>
-
+    <div class=case-study-hero-p90>
+        <h1>Redesigning Project90’s Website</h1>
+    </div>
+    <section class="abstract">
+        <div class="background">
+            <h2>Background</h2>
+            <h6>Project90 is a new approach to ending homelessness. The 6 pronged model to help their customers out of homelessness and into self sufficiency has let to great success for the parent organization, 90Works. They now want to scale their impact by helping other homelessless non-profits adopt this model, and need to redesign their website to acheive this goal.</h6>
+            <h6>We wanted to answer:</h6>
+            <h4>How can we increase the adoption of the Project90 Self-Sufficiency Model by caseworkers looking to end homelessness?</h4>
+        </div>
+        <div class="overviewGrid">
+            <div class="overviewGrid-section project-type">
+                <h4>Project Type</h4>
+                <h6>UX Research, UI/UX Design</h6>
+            </div>
+            <div class="overviewGrid-section duration">
+                <h4>Duration</h4>
+                <h6>3 weeks (Aug 27 2022 - Sept 19 2022)</h6>
+            </div>
+            <div class="overviewGrid-section my-role">
+                <h4>My Role</h4>
+                <h6>UX Designer, part of a 3 person team</h6>
+            </div>
+            <div class="overviewGrid-section tools-used">
+                <h4>Tools Used</h4>
+                <h6>Figma, Useberry, Invision, Pen and Paper</h6>
+            </div>
+            <div class="overviewGrid-section contribution">
+                <h4>Contribution</h4>
+                <h6>User research, problem definition, site architecture, sketches, wireframes</h6>
+            </div>
+            <div class="overviewGrid-section final-product">
+                <h4>Final Product</h4>
+                <h6>High-Fidelity Responsive Web Design Wireframes</h6>
+        </div>
+    </section>
+    <section class="body">
+        <h2>Our Answer</h2>
+        <div>
+            <h6>By creating a robust site architecture and narrowing down the focus of their homepage, we were able to make it easier for the users of the site to understand Project90’s value and take action. We implemented a strong call to action for webinar registration that gave users a clear next step.</h6>
+        </div>
+        <h2>How We Got There</h2>
+        <div class="timeline">
+            <img src="/Images/p90 casestudy graphic.png" alt="" height="100%" width="100%">
+        </div>
+        <div class="timeline-mobile">
+            <img src="/Images/p90 casestudy graphic vertical.png" alt="" height="100%" width="100%">
+        </div>
+        <div class="research">
+            <h4>Research & Analysis</h4>
+            <h6>We collected 5 interviews and 21 survey results from case workers currently working to end homelessness. While there was a large variety of case management models used, all of them agreed that they wish they had more time to actually help people and less time having to do paperwork. While they do feel like they’re making a difference, they wish they could be more effective.</h6>
+            <div class="siteflow">
+                <img src="/Images/p90-old-siteflow.png" alt="" height="100%" width="100%">
+            </div>
+            <p>Project90’s current site is a single landing page</p>
+            <h6>The Project90 model is designed to addess some of this frustration but the current site is difficult to understand. Some of the major issues are:</h6>
+            <ul>
+                <li><span id="bold" class="blue">Site Architecture:</span> The site is a single page, which means the user is faced with a lot of content all at once, without a clear understanding of the relationship between different sections.</li>
+                <li><span id="bold" class="blue">Content Hierarchy:</span> Important contect like “About Us” and information about the self-sufficiency model is not given the proper emphasis, relegated to the footer or located too far down the page for the user to find easily.</li>
+                <li><span id="bold" class="blue">Visual Design:</span> Spacing between visual elements and text is too small, making the site seem jumbled and overwhelming.</li>
+            </ul>
+        </div>
+        <div class="persona">
+            <h4>Persona & Definition</h4>
+            <h6>Our persona Jennifer was created from our research to start defining our problem. While Jennifer does feel like she is making a difference, she also feels like her impact is being continuously limited by lack of resources and time.</h6>
+            <div class="jennifer">
+                <img src="/Images/p90 Persona.png" alt="" height="100%" width="100%">
+            </div>
+            <h6>To better address Jennifer’s pain points, we redefined Project90’s Value Proposition:</h6>
+            <h5>90Works is developing Project90 Impact to help case workers focusing on eradicating homelessness be more effective with keeping their customers out of homeless. We’re better because we provide holistic services that are tailored to each individual customer’s basic needs. We’re believable because 100% of our customers remain self-sufficient and out of homelessness 6 months after case closure.</h5>
+            <h6>Using these two elements, we narrowed down our initial question into our final problem statement: <span class="h5">How can we help caseworkers quickly understand the self-sufficency model and its benefits so that they feel empowered to implement the model for themselves?</span></h6>
+        </div>
+        <div class="site-architecture">
+            <h4>Site Architecture</h4>
+            <h6>We reimagined Jennifer’s journey on the Project90 site, and defined the scope of our project by what could be accomplished in time for our deadline, two weeks away.</h6>
+            <div class="userjourney">
+                <img src="/Images/p90 user journey.png" alt="" height="100%" width="100%">
+            </div>
+            <p>We focused on the Learning and Inspiration sections of the user journey for this project.</p>
+            <h6>We created a new sitemap, expanding from the current single-page site, to align with this new user journey. We mapped out the entire site, although we only designed a few key sections.</h6>
+            <div class="sitemap">
+                <img src="/Images/p90-sitemap.png" alt="" height="100%" width="100%">
+            </div>
+        <div class="design-intro">
+            <h4>Design Iterations</h4>
+            <h6>We chose to focus on making a better explanation of the self sufficiency model, including links to resources that would help case workers meet the needs of their customers within all 6 domains. To help explain the model further and get case workers on track to implement the model themselves, we also needed to create a way for them to RSVP for upcoming webinars, as well as access an existing library of on-demand recordings of previous webinars. We started with paper sketches, which we then iterated into a mid fidelity prototype after user testing.</h6>
+        </div>
+        <div class="design-iteration">
+            <div class="design-ex">
+                <img src="/Images/p90-header-design.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="design-description">
+                <h5>Increasing the prominence of our Need Help button in the header.</h5>
+                <h6><span class="h5">Justification: </span>We wanted to account for non-caseworkers that may come across this site, especially people at risk of or experiencing homelessness. This button would lead to a directory of resources for people to get the help they need. However, users had difficulty identifying this button in paper testing, so we made it more prominent in the mid-fi.</h6>
+            </div>
+        </div>
+        <div class="design-iteration">
+            <div class="design-ex">
+                <img src="/Images/p90-menu-design.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="design-description">
+                <h5>Changing section names in the navigation menu.</h5>
+                <h6><span class="h5">Justification: </span>1 out of our 5 users were unable to navigate to the webinar registration page, so we reworked the navigation labels to reduce ambiguity.</h6>
+            </div>
+        </div>
+        <div class="design-iteration">
+            <div class="design-ex">
+                <img src="/Images/p90-model-design.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="design-description">
+                <h5>Adding a hover interaction to clickable elements in the model overview.</h5>
+                <h6><span class="h5">Justification: </span>Users didn’t initally realize these icons were clickable, so we added a rollover feature to provide more information about the model as well as signal clickability.</h6>
+            </div>
+        </div>
+        <div class="design-iteration">
+            <div class="design-ex">
+                <img src="/Images/p90-modal-design.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="design-description">
+                <h5>Changing webinar registration to a pop-up modal instead of a separate page.</h5>
+                <h6><span class="h5">Justification: </span>A more seemless experience for user since they don’t have to navigate to a separate page and can continue browsing both recorded and upcoming webinars after registration.</h6>
+            </div>
+        </div>
+        <div class="final-design">
+            <h4>Implementing a Design Sytem for our final Solution</h4>
+            <h6>A branding exercise was outside of the scope of this project, so we chose to keep their exising logo and use their brand orange as the base of our color palette. To soften out the industrial feel of the orange and grey scheme, we introduced some complementary teals and soft graphic elements to express the warmth and approachability of this non-profit brand.</h6>
+            <div class="styletile">
+                <img src="/Images/P90 Style Tile 1.png" alt="" width="100%" height="100%">
+            </div>
+            <h6>We implemented this new design system to create our final high fidelity protoype:</h6>
+            <div class="prototypes">
+                <iframe width="600" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FHKExOfxwezRyWHMEDwJjpr%2FProject90-Impact-(Personal)%3Fpage-id%3D507%253A44350%26node-id%3D507%253A44354%26viewport%3D451%252C350%252C0.06%26scaling%3Dcontain%26starting-point-node-id%3D507%253A44354" allowfullscreen></iframe>
+                <iframe width="300" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FHKExOfxwezRyWHMEDwJjpr%2FProject90-Impact-(Personal)%3Fpage-id%3D230%253A8808%26node-id%3D399%253A40159%26viewport%3D1450%252C692%252C0.1%26scaling%3Dscale-down%26starting-point-node-id%3D399%253A40159" allowfullscreen></iframe>
+            </div>
+        <div class="conclusion">
+            <h2>Concluding Thoughts</h2>
+            <h6>This project was an excellent study on the use of color and the important of balance and white space in a design. Personally, was really rewarding getting to work with an more experienced visual designer on this project. I learned a lot about the nuances of color theory and visual weight while listening to her thought process. It was especially helpful having the opportunity to implement her stylistic decisions to create a final mock up.</h6>
+            <h6>Future iterations would include designing the rest of the site and continuing to iterate on the design system.</h6>
+        </div>
+    </section>
     <footer>
         <div class="footer-flex">
+          <div class="contact-options">
             <p id="bold">Get in touch:</p>
             <p>radharay97@gmail.com</p>
             <p>(703) 220-4256</p>
-            <p>LinkedIn</p>
-            <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
+            <a href="https://www.linkedin.com/in/radha-ray-79338211a/" class="linkedin">LinkedIn</a>
+          </div>
+          <button class="scroll"><img src="Images/top scroll.png" alt="Back to Top"></button>
         </div>
-        <button class="scroll"><img src="Images/Footer Scroll Icon.png" alt="Back to Top"></button>
-    </footer>
+        <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="/js/index.js"></script>
 </body>

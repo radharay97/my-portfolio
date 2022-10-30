@@ -1,205 +1,270 @@
 /* text and button styles CSS */
 h1 {
-    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 46.94px;
-    color: #0D0D0D;
-    margin: 5px 0px;
+    font-size: 36px;
+    line-height: 150%;
+    color: #082650;
 }
 h2 {
-    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 31.3px; 
-    color: #0D0D0D;
-    margin: 5px 0px;
+    line-height: 150%;
+    color: #082650;
 }
 h3 {
-    font-family: 'Hind Vadodara', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 40px;
-    color: #0D0D0D;
-    margin: 5px 0px;
+    font-size: 22px;
+    line-height: 150%;
+    color: #082650;
 }
 h4 {
-    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 26.08px; 
-    letter-spacing: 2%;
-    color: #0D0D0D;
-    margin: 5px 0px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #082650;
 }
 h5 {
-    font-family: 'Hind Vadodara', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 36px;
-    letter-spacing: 2%;
-    color: #0D0D0D;
-    margin: 5px 0px;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #082650;
 }
 h6 {
-    font-family: 'Hind Vadodara', sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 3%;
-    color: #0D0D0D;
-    margin: 5px 0px;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #082650;
 }
 p {
-    font-family: 'Hind Vadodara', sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 25px;
-    letter-spacing: 2%;
-    margin: 3px;
-    color: #0D0D0D;
+    letter-spacing: 0.02em;
+    color: #082650;
 }
 #bold {
-    font-family: 'Hind Vadodara', sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 25px;
-    letter-spacing: 2%;
-    color: #0D0D0D  
+    font-weight: 600;
 }
-.hero button {
-    font-family: 'Hind Vadodara', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 36px;
+.button-primary {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
     letter-spacing: 2%;
     color: #FCFFFE; 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 25px;
+    padding: 4px 25px;
     gap: 10px; 
     background-color: #307BB6;
-    border-radius: 23px;
+    border-radius: 8px;
     border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
-.hero button:hover {
-    font-family: 'Hind Vadodara', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 36px;
+.button-primary:hover {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
     letter-spacing: 2%;
     color: #0D0D0D; 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 25px;
+    padding: 4px 25px;    
     gap: 10px; 
     background-color: #CB8CCE;
-    border-radius: 23px;
+    border-radius: 8px;
     border: none;
+    margin-bottom: 5px;
 }
-.hero button:active {
-    font-family: 'Hind Vadodara', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 36px;
+.button-primary:active {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
     letter-spacing: 2%;
     color: #0D0D0D; 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 25px;
+    padding: 4px 25px;
     gap: 10px; 
     background-color: #AFDAE9;
-    border-radius: 23px;
+    border-radius: 8px;
     border: 4px solid #082650;
+    margin-bottom: 5px;
 }
-.selected {
-    font-family: 'Noto Sans Gujarati', sans-serif;
+.button-secondary {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #307BB6; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 25px;
+    gap: 10px; 
+    background-color: #FCFFFE;
+    border-radius: 8px;
+    border: 3px solid #307BB6;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.button-secondary:hover {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #CB8CCE; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 25px;    
+    gap: 10px; 
+    background-color: #FCFFFE;
+    border-radius: 8px;
+    border: 3px solid #CB8CCE;
+    margin-bottom: 5px;
+}
+.button-secondary:active {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 2%;
+    color: #0D0D0D; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 25px;
+    gap: 10px; 
+    background-color: #AFDAE9;
+    border-radius: 8px;
+    border: 3px solid #082650;
+    margin-bottom: 5px;
+}
+.header-links {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 31.3px; 
-    color: #6D2650;
+    line-height: 150%;
+    color: #082650;
+    margin: 5px 0px;
     text-decoration: none;
 }
-.unselected {
-    font-family: 'Noto Sans Gujarati', sans-serif;
+.header-links:hover {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 31.3px; 
-    color: #082650;
+    line-height: 150%;
+    color: #6D2650;
+    margin: 5px 0px;
     text-decoration: none;
 }
 /* header CSS */
 header {
     background-color: #AFDAE9;
-    height: 121px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height: 70px;
     display: flex;
     margin-bottom: 2%;
     box-sizing: border-box;
-    padding-left: 8%;
     padding-right: 8%;
+    padding-left: 8%;
     justify-content: space-between;
     align-items: flex-end;
+    z-index: 10;
 }
 .logo {
-    height: 121px;
+    height: 35px;
     width: auto;
     text-align: center;
+    margin-bottom: 5px;
 }
 nav {
     box-sizing: border-box;
-    width: 167px;
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
 }
-@media only screen and (max-width: 500px) {
-    nav {
-        box-sizing: border-box;
-        width: 150px;
-        display: flex;
-        justify-content: space-between;
-    }
+nav > a {padding-inline: 10px;}
+@media only screen and (max-width: 576px) {
+    nav {flex-direction: column;}
+    .header-links {display: none;}
+    .button-primary {padding: 8px;}
+    .logo {height: 20px;}
 }
 /* homepage CSS */
 .hero {
     display: grid;
-    width: 80%;
-    margin: auto;
-    height: auto;
-    margin-top: 150px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10%;
     justify-content: space-between;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 25% 1fr;
+    grid-template-columns: 242px 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
-    "profileimage title"
-    "profileimage bio"
-    "profileimage button";
+    "profileimage bio";
     }
+.gradient {
+    font-family: 'salsa',cursive;
+    font-size: 96px;
+    background-color: #082650;
+    background-image: linear-gradient(60deg, #307BB6, #6D2650);
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
 .profileimage {
     grid-area: profileimage;
+    height: 242px;
+    width: 242px;
     margin-right: 50px;
 }
-.hero h1 {
-    grid-area: title;
-    margin: 25px;
-}
-.hero h3 {
+
+.bio {
     grid-area: bio;
-    margin: 25px;
+    margin-bottom: 10%;
 }
-.hero button {
-    width: 121px;
-    height: 52px;
+.btn-group {
     margin-top: 20px;
     grid-area: button;
 }
@@ -208,37 +273,63 @@ nav {
     align-self: center;
     justify-self: center;
 }
+hr {
+    border: 1px solid #AFDAE9;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
 .caseStudies {
-    display: flex;
-    flex-direction: column;
-    width: 85%;
     margin: auto;
-    margin-top: 75px;
-    margin-bottom: 50px;
+    width: 90%;
 }
-.caseStudies h1 {
-    align-self: center;
-    margin: auto;
-    margin-bottom: 25px;
+.casestudy{
+    position: relative;
 }
-.casestudy {
+.card-body {
     display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    opacity: 0;
 }
-.summary {
-    box-sizing: border-box;
-    width: 45%;
-    display: flex;
-    flex-direction: column;
+.card-body a {
+    text-decoration: none;
 }
-.casestudyThumbnail {
-    width: 45%;
-    height: 30%;
+.toCaseStudy h6 {color: #307BB6;}
+.toCaseStudy h4 {font-weight: 400;}
+.toCaseStudy h3 {font-weight: 600;}
+.casestudy:hover .card-body {
+    height: 100%;
+    opacity: 1;
+  }
+  .casestudy:hover .card-img-top {
+   opacity: .2;
+  }
+@media (min-width: 1000px) and (max-width: 1400px)
+{
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
 }
-.summary h2, h5 {align-self: center;}
+@media (max-width: 999px)
+{
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
 @media only screen and (max-width: 1000px) {
     .hero {
         display: flex;
@@ -250,75 +341,39 @@ nav {
         align-items: flex-start;
     }
     .profileimage {
-        width: 70%;
         justify-self: center;
         margin: auto;
     }
     .hero h1 {
-        margin: 25px;
+    
+        font-size: 60px;
     }
     .hero h3 {
-        margin: 25px;
         width: 100%;
         height: fit-content;
     }
-    .download {
+    .btn-group {
         align-self: center;
         justify-self: center;
-    }
-    .caseStudies {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        margin: auto;
-        margin-top: 75px;
-        margin-bottom: 50px;
-    }
-    .casestudy {
-        display: flex;
-        flex-direction: column-reverse;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .reverse {
-        display: flex;
-        flex-direction: column;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .summary {
-        box-sizing: border-box;
-        margin-top: 10px;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-    }
-    .casestudyThumbnail {
-        width: 90%;
-        height: auto;
     }
 }
 /* Footer CSS */
 footer {
-    box-sizing: border-box;
     width: 100%;
-    height: 85px;
+}
+.footer-flex {
     padding-left: 8%;
     padding-right: 8%;
-    padding-top: 35px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: top;
     background-color: #FCFFFE;
 }
-.footer-flex {
+.contact-options {
     display: flex;
+    flex-direction: column;
     width: 90%;
-    justify-content: space-between;
 }
 .scroll {
     height: 30px;
@@ -331,20 +386,43 @@ footer {
     height: 30px;
     width: 30px;
 }
-@media only screen and (max-width: 1100px) {
-    .footer-flex {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-    }
+.linkedin {
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2%;
+    color: #082650;
+}
+.linkedin:hover {
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2%;
+    margin: 3px;
+    color: #082650;
+}
+footer > p {
+    text-align: center;
+    color: #CB8CCE;
 }
 /* About Me CSS */
+.aboutHero {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    align-items: center;
+}
 .aboutimage {
     height: auto;
-    width: 40%;
-    margin: auto;
-    margin-top: 140px;
+    width: 260px;
+    margin-right: 50px;
 }
+.aboutme h2 {font-size: 32px;}
 .bio {
     display: flex;
     flex-direction: column;
@@ -355,14 +433,264 @@ footer {
 }
 .bio h2 {align-self: center;}
 .bio h5 {padding-bottom: 30px;}
-.h5 {
-    font-family: 'Hind Vadodara', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 2%;
-    color: #0D0D0D;
+.h5blue {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #307BB6;
 }
-@media only screen and (max-width: 800px) {
-    .aboutimage {width: 70%;}
+.h5 {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+@media only screen and (max-width: 750px) {
+    .aboutHero {flex-direction: column;}
+}
+/* Case Study CSS */
+.case-study-hero-p90 {
+    height: calc(70vh);
+    width: 100%;
+    background-image: url(/Images/p90\ hero\ image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.case-study-hero-p90 h1 {margin-left: 8%;}
+.abstract {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: grid;
+    grid-template-columns: 6fr 4 fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "background overviewGrid";
+}
+.background {
+    grid-area: background;
+    margin-right: 40px;
+}
+.overviewGrid {
+    grid-area: overviewGrid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.project-ryp
+.overviewGrid-section {
+    margin-right: 8px;
+}
+.body {
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body h2 {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.timeline {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.timeline-mobile {display:none}
+.research {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.siteflow {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+.research p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+.research ul {
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #082650;
+}
+.blue {color: #5a94c1;}
+.persona {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.jennifer {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.persona h5 {
+    display: block;
+    width: 60%;
+    margin: 16px auto;
+    color: #5a94c1;
+}
+.site-architecture {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.userjourney {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.site-architecture p {text-align: center;}
+.sitemap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 80%;
+}
+.design-intro {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.design-iteration {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    align-items: center;
+    justify-content: space-between;
+}
+.design-description {width: 40%;}
+.design-ex {width: 50%;}
+.final-design {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.conclusion {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.styletile {
+    width: 70%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.prototypes {
+    margin: auto;
+    margin-top: 36px;
+}
+@media only screen and (max-width: 700px) {
+    .abstract {
+        margin-left: 8%;
+        margin-right: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+    overviewGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .design-iteration {
+        display: flex;
+        padding-top: 24px;
+        padding-bottom: 36px;
+        flex-direction: column;
+        align-items: space-between;
+        justify-content: center;
+    }
+    .design-description {width: 80%;}
+    .design-ex {width: 80%;}
+}
+@media only screen and (max-width: 450px) {
+    .timeline-mobile {
+        display: unset;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .timeline {display:none}
+}
+.case-study-hero-doi {
+    height: calc(70vh);
+    width: 100%;
+    background-image: url(/Images/doi\ hero\ image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.case-study-hero-doi h1 {margin-left: 8%;}
+.regular-text {
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #082650;
+}
+.persona p {text-align: center;}
+.first-design {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 70%;
+}
+.second-design {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 50%;
+}
+.mobile-design {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 10%;
+}
+.image-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.case-study-hero-neighborly {
+    height: calc(70vh);
+    width: 100%;
+    background-image: url(/Images/Neighborly\ Case\ \ Study\ Thumbnail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.case-study-hero-neighborly h1 {margin-left: 8%;}
+.competitor {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }

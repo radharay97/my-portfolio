@@ -1,77 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;500;700&family=Noto+Sans+Gujarati:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Salsa&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/Images/favicon.ico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/Images/favicon-16x16.png"/>
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Radha Ray</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="/index"><img src="Images/Logo.png" alt="logo" height="100%" width="100%"></a>
+            <a href="/index"><img src="Images/Logo.svg" alt="logo" height="100%" width="100%"></a>
         </div>
-        <nav class="header">
-            <a href="/index" class="selected">Work</a>
-            <a href="/about" class="unselected">About</a>
+        <nav>
+            <a href="/index" class="header-links">Work</a>
+            <a href="/about" class="header-links">About</a>
+            <a class="button-primary" href="mailto:radharay97@gmail.com?subject=I saw your portfolio!&body=Hi Radha,">Email Me</a>
         </nav>
     </header>
     <section class="hero">
-        <h1>Hi, I'm Radha,</h1>
         <div class="profileimage">
-            <img src="Images/Home Page Photo.jpg" alt="My Photo" height="100%" width="100%">
+            <img src="/Images/my pic.png" alt="My Photo" height="100%" width="100%">
         </div>
-        <h3>a UX Designer with a background in Psychology. I am passionate about developing beautiful products that are driven by user insights. My strengths are in design thinking, user empathy, and collaboration.</h3>
-        <a href="/Images/Radha Ray Resume.pdf" download="Radha Ray Resume" class="download"><button>Resume</button></a>
+        <div class="bio">
+            <h1 class="gradient">Hi! I'm Radha,</h1>
+            <h3>a UX Designer with a background in Psychology.</h3>
+            <h3>passionate about developing beautiful products that are driven by user insights.</h3>
+            <h3>Let's work together to make impactful change.</h3>
+            <div class="btn-group">
+              <a class="button-primary" href="mailto:radharay97@gmail.com?subject=I saw your portfolio!&body=Hi Radha,">Contact</a>
+              <a href="/Images/Radha Ray Resume.pdf" download="Radha Ray Resume" class="download"><button class="button-secondary">Resume</button></a>
+            </div>
+        </div>
     </section>
+    <hr>
     <section class="caseStudies">
         <h1>My Work</h1>
-        <div class="casestudy">
-            <div class="summary">
-                <h2>Project90 Website Redesign</h2>
-                <h5>UX Research, UI/UX Design</h5>
-                <h3>Redesigning a homelessness non-profit’s site for their successful case model solution, responsive for web, tablet, and mobile.</h3>
+        <div class="card-columns">
+            <div class="card casestudy">
+              <img class="card-img-top" src="/Images/Project90 Case Study Thumbnail.png" alt="P90 Redesign">
+              <div class="card-body">
+                <a href="/project90">
+                  <div class="toCaseStudy">
+                    <h3 class="card-title">Project90 Website Redesign</h3>
+                    <h6>UX RESEARCH, UI/UX DESIGN</h6>
+                    <h4>Redesigning a homelessness non-profit’s site for their successful case model solution, responsive for web, tablet, and mobile.</h4>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div class="casestudyThumbnail">
-                <a href="/project90"><img src="Images/Project90 Case Study Thumbnail.png" alt="Project90 Redesign" height="100%" width="100%"></a>
-            </div>
-        </div>
-        <div class="casestudy reverse">
-            <div class="casestudyThumbnail">
-                <a href="/doi"><img src="Images/DoI Case Study Thumbnail.png" alt="DoI Redesign" height="100%" width="100%"></a>
-            </div>
-            <div class="summary">
-                <h2>DoI Website Redesign</h2>
-                <h5>Responsive Web Design</h5>
-                <h3>Redesigning a government agency’s website, responsive for web and mobile.</h3>
-            </div>
-        </div>
-        <div class="casestudy">
-            <div class="summary">
-                <h2>Neighborly Mobile App Design</h2>
-                <h5>UX Research and Design</h5>
-                <h3>Designing an app to where neighbors can help neighbors, from ideation to mid-fidelity prototype.</h3>
-            </div>
-            <div class="casestudyThumbnail">
-                <a href="/neighborly"><img src="Images/Neighborly Case Study Thumbnail.png" alt="Neighborly App Design" height="100%" width="100%"></a>
-            </div>
+            <div class="card casestudy">
+                <img class="card-img-top" src="/Images/DoI Case Study Thumbnail.png" alt="DoI Redesign">
+                <div class="card-body">
+                  <a href="/doi">
+                    <div class="toCaseStudy">
+                      <h3 class="card-title">DoI Website Redesign</h3>
+                      <h6>RESPONSIVE WEB DESIGN</h6>
+                      <h4>Redesigning a government agency’s website, responsive for web and mobile.</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="card casestudy">
+                <img class="card-img-top" src="/Images/Neighborly Case  Study Thumbnail.png" alt="Neighborly Design">
+                <div class="card-body">
+                  <a href="/neighborly">
+                    <div class="toCaseStudy">
+                      <h3 class="card-title">Neighborly Mobile App Design</h3>
+                      <h6>UX RESEARCH AND DESIGN</h6>
+                      <h4>Designing an app to where neighbors can help neighbors, from ideation to mid-fidelity prototype.</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
         </div>
     </section>
     <footer>
-        <div class="footer-flex">
-            <p id="bold">Get in touch:</p>
-            <p>radharay97@gmail.com</p>
-            <p>(703) 220-4256</p>
-            <p>LinkedIn</p>
-            <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
+      <div class="footer-flex">
+        <div class="contact-options">
+          <p id="bold">Get in touch:</p>
+          <p>radharay97@gmail.com</p>
+          <p>(703) 220-4256</p>
+          <a href="https://www.linkedin.com/in/radha-ray-79338211a/" class="linkedin">LinkedIn</a>
         </div>
         <button class="scroll"><img src="Images/top scroll.png" alt="Back to Top"></button>
+      </div>
+      <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="/js/index.js"></script>
 </body>

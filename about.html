@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;500;700&family=Noto+Sans+Gujarati:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Salsa&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/Images/favicon.ico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/Images/favicon-16x16.png"/>
+    <link rel="stylesheet" href="CSS/style.css">
     <title>About</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="/index.html"><img src="Images/Logo.png" alt="logo" height="100%" width="100%"></a>
+            <a href="/index"><img src="Images/Logo.svg" alt="logo" height="100%" width="100%"></a>
         </div>
-        <nav class="header">
-            <a href="/index" class="unselected">Work</a>
-            <a href="/about" class="selected">About</a>
+        <nav>
+            <a href="/index" class="header-links">Work</a>
+            <a href="/about" class="header-links">About</a>
+            <a class="button-primary" href="mailto:radharay97@gmail.com?subject=I saw your portfolio!&body=Hi Radha,">Email Me</a>
         </nav>
     </header>
-    <div class="aboutimage">
-        <img src="/Images/Home Page Photo.jpg" alt="My Photo" height="100%" width="100%">
-    </div>
+    <section class="aboutHero">
+        <div class="aboutimage">
+            <img src="/Images/expanded photo.png" alt="My Photo" height="100%" width="100%">
+        </div>
+        <div class="aboutme">
+            <h2>UX Designer based in Washington, DC</h2>
+            <h6>I’m passionate about developing user-first products with cutting edge design.</h6>
+            <h6>With a strong psychology background, my strength lies in the ability to develop meaningful insights from qualitative and quantitative data.</h6>
+        </div>
+    </section>
+    <hr>
     <section class="bio">
-        <h2>UX Designer based in Washington, DC</h2>
-        <h5>A certified UX designer with a background in psychology. Forward-thinking professional passionate about developing usable products with cutting edge design. Strengths in creativity, teamwork, data analysis, and building projects from ideation to execution.</h5>
         <h4>Skills:</h4>
         <ul>
             <li>
-                <h6><span class="h5">User Research:</span> Conducting qualitative user interviews as well as collecting quantitative survey data,and organizing user data to draw insights and define problems.</h6>
+                <h6><span class="h5blue">User Research:</span> Conducting qualitative user interviews as well as collecting quantitative survey data,and organizing user data to draw insights and define problems.</h6>
             </li>
             <li>
-                <h6><span class="h5">User Empathy:</span> Creating empathy maps and user personas backed by user research, and formulating comprehensive and compelling problem statements.</h6>
+                <h6><span class="h5blue">User Empathy:</span> Creating empathy maps and user personas backed by user research, and formulating comprehensive and compelling problem statements.</h6>
             </li>
             <li>
-                <h6><span class="h5">Wireframing:</span> Iterating from paper sketches to high fidelity mockups based on data from user tests, and creating fully clickable prototypes.</h6>
+                <h6><span class="h5blue">Wireframing:</span> Iterating from paper sketches to high fidelity mockups based on data from user tests, and creating fully clickable prototypes.</h6>
             </li>
         </ul>
         <h6><span class="h5">Tools I know:</span> Figma, Adobe XD, InVision, Miro, Useberry, Pen and Paper</h6>
@@ -44,14 +52,25 @@
     </section>
     <footer>
         <div class="footer-flex">
+          <div class="contact-options">
             <p id="bold">Get in touch:</p>
             <p>radharay97@gmail.com</p>
             <p>(703) 220-4256</p>
-            <p>LinkedIn</p>
-            <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
+            <a href="https://www.linkedin.com/in/radha-ray-79338211a/" class="linkedin">LinkedIn</a>
+          </div>
+          <button class="scroll"><img src="Images/top scroll.png" alt="Back to Top"></button>
         </div>
-        <button class="scroll"><img src="Images/Footer Scroll Icon.png" alt="Back to Top"></button>
-    </footer>
+        <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="/js/index.js"></script>
 </body>

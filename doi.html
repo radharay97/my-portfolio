@@ -1,38 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;500;700&family=Noto+Sans+Gujarati:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Salsa&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/Images/favicon.ico"/>
-    <title>Radha Ray</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/Images/favicon-16x16.png"/>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>DoI Redesign</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="/index"><img src="Images/Logo.png" alt="logo" height="100%" width="100%"></a>
+  <header>
+    <div class="logo">
+        <a href="/index"><img src="Images/Logo.svg" alt="logo" height="100%" width="100%"></a>
+    </div>
+    <nav>
+        <a href="/index" class="header-links">Work</a>
+        <a href="/about" class="header-links">About</a>
+        <a class="button-primary" href="mailto:radharay97@gmail.com?subject=I saw your portfolio!&body=Hi Radha,">Email Me</a>
+    </nav>
+</header>
+<div class=case-study-hero-doi>
+    <h1>Redesigning The US Department of the Interior’s Website</h1>
+</div>
+<section class="abstract">
+    <div class="background">
+        <h2>Background</h2>
+        <h6>The US Department of the Interior's responsibilies span the management and conservation of most federal lands and natural and historical resources, The also manage administration of programs relating to Native Americans, Alaska Natives, Native Hawaiians, territorial affairs, and insular areas of the United States. Due to their large scope, their website has a large amount of information that needs to be presented to a broad audience.</h6>
+        <h6>I wanted to make their site more user-friendly by reorganizing content to match user expectations and making it easier to navigate between different sections of the site.</h6>
+    </div>
+    <div class="overviewGrid">
+        <div class="overviewGrid-section project-type">
+            <h4>Project Type</h4>
+            <h6>Responsive Web Design</h6>
         </div>
-        <nav class="header">
-            <a href="/index" class="selected">Work</a>
-            <a href="/about" class="unselected">About</a>
-        </nav>
-    </header>
-
-    <footer>
-        <div class="footer-flex">
-            <p id="bold">Get in touch:</p>
-            <p>radharay97@gmail.com</p>
-            <p>(703) 220-4256</p>
-            <p>LinkedIn</p>
-            <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
+        <div class="overviewGrid-section duration">
+            <h4>Duration</h4>
+            <h6>4 weeks (Jul 27 2022 - Aug 24 2022)</h6>
         </div>
-        <button class="scroll"><img src="Images/Footer Scroll Icon.png" alt="Back to Top"></button>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="/js/index.js"></script>
+        <div class="overviewGrid-section my-role">
+            <h4>My Role</h4>
+            <h6>UI Designer, solo project</h6>
+        </div>
+        <div class="overviewGrid-section tools-used">
+            <h4>Tools Used</h4>
+            <h6>Figma, Useberry, Maze, Invision, Pen and Paper</h6>
+        </div>
+        <div class="overviewGrid-section contribution">
+            <h4>Deliverables</h4>
+            <h6>Usability testing, problem definition, design system, wireframes</h6>
+        </div>
+        <div class="overviewGrid-section final-product">
+            <h4>Final Product</h4>
+            <h6>High-Fidelity Responsive Web Design Wireframes</h6>
+    </div>
+</section>
+<section class="body">
+    <h2>Current Experience</h2>
+    <div>
+        <h6>The DoI’s website needs to communicate a lot of information in an accessible way, but the current site layout and organization of information is immature. Some major issues are:</h6>
+        <ul class="regular-text">
+          <li>inconsistent navigation between different sections of site</li>
+          <li>ambigious and sometimes duplicative section titles</li>
+          <li>outdated visual design</li>
+      </ul>
+    </div>
+    <h2>My Solution</h2>
+    <div class="timeline">
+        <img src="/Images/doi-timeline.png" alt="" height="100%" width="100%">
+    </div>
+    <div class="timeline-mobile">
+        <img src="/Images/doi-timeline-mobile.png" alt="" height="100%" width="100%">
+    </div>
+    <div class="research">
+        <h4>Proto-persona & Analysis</h4>
+        <h6>I created Paul as a starting point for imagining the journey a user would take through the DoI’s current site. As I followed his journey, I took notes of the strengths and weaknesses of each page’s design and what elements could prevent Paul from accomplishing his goals.</h6>
+        <div class="siteflow">
+            <img src="/Images/Paul Woods.png" alt="" height="100%" width="100%">
+        </div>
+        <p>Paul is looking to find the most updated information about the DoI's policies and needs to be able to navigate the site quickly.</p>
+        <div class="design-iteration">
+          <div class="design-ex">
+              <img src="/Images/doi headers.png" alt="" height="100%" width="100%">
+          </div>
+          <div class="design-description">
+              <h6>The header navigation changes for different sections, making navigation between sections impossible wihout first nagivating back to the home page.</h6>
+          </div>
+      </div>
+      <div class="design-iteration">
+          <div class="design-ex">
+              <img src="/Images/doi-hero-carousel.png" alt="" height="100%" width="100%">
+          </div>
+          <div class="design-description">
+              <h6>It’s unclear how the content in the hero carousel is different from the section directly below it.</h6>
+          </div>
+      </div>
+      <div class="design-iteration">
+          <div class="design-ex">
+              <img src="/Images/doi contact form 1.png" alt="" height="100%" width="100%">
+          </div>
+          <div class="design-description">
+              <h6>A government agency must be easily accessible to its constituents, but the DoI’s contact form is only see in the footer on the homepage.</h6>
+          </div>
+      </div>
+    </div>
+    <div class="persona">
+        <h4>Usability Testing & Navigation Redesign</h4>
+        <h6><span id="bold">Only 1 out of our 5 testers</span> were able to complete all 3 tasks in our usability test for the current site. It was not clear what was clickable in the header navigation. A <span id="bold">lack of universal navigation in the site header</span> led to users getting stuck in certain sections of the site and having to navigate back to the homepage. Also, heavy jargon and duplicated content across sections of the site made navigation difficult.</h6>
+        <h6>With this feedback, I started by conducting a card stort to determine the best way to organize the header menu to reduce this confusion. I removed the “bureaus and offices” section from the header navigation and distributed those links into the “about” section. I also rephrased several sections to remove jargon that users found confusing in testing. There were several duplicate titles that I also removed.</h6>
+        <div class="jennifer">
+            <img src="/Images/doi-card-sort.png" alt="" height="100%" width="100%">
+        </div>
+        <div class="sitemap">
+            <img src="/Images/doiSitemap.png" alt="" height="100%" width="100%">
+        </div>
+        <p>New Sitemap</p>
+    <div class="design-intro">
+        <h4>Design Iterations</h4>
+        <h6>Users of the current site felt overwhelmed by the amount of information on the current homepage, and also found the content chunking confusing and duplicative. To solve for this, I started by simplifying the homepage down to only include a carousal of the most recent posts and updates of department activities, and an option to subscribe for email updates.</h6>
+        <div class="first-design">
+          <img src="/Images/doi-homepage-first.png" alt="" height="100%" width="100%">
+        </div>
+        <h6>However, this design proved to be too simple. 5 second test results showed that users still didn’t understand what the DoI did and how it pertained to them. While they were drawn to the carousel based on its prominence on the page, they didn’t fully understand how the different articles and videos were related to eachother.</h6>
+        <h6>The second iteration of the homepage removed the carousel in the hero and instead provided the DoI’s mission. The news updates were moved below the hero and broken out into a grid so that all the information could be seen immediately.</h6>
+        <div class="image-flex">
+          <div class="second-design">
+            <img src="/Images/doi-homepage-second.png" alt="" height="100%" width="100%">
+          </div>
+          <div class="mobile-design">
+            <img src="/Images/doi Mobile Home.png" alt="" height="100%" width="100%">
+          </div>
+        </div>
+        <h6>After receiving feedback that the weekly DoI update video being included along with the recent blog posts was not intuitive, I further iterated on this layout for my high fidelity prototype and brought back a video carousel towards the bottom of the page for only the update videos.</h6>
+    </div>
+    <div class="final-design">
+        <h4>Implementing a Design Sytem for the final Solution</h4>
+        <h6>I derived my main color palette from the oranges, browns, and teals found their logo. The old site was predominantly blue, but I chose these warmer colors to brighten up the site and evoke nature and the outdoors with earthier tones. I also went with rounded fonts to make all their long form content seem more friendly and approachable.</h6>
+        <div class="styletile">
+            <img src="/Images/DoI Style Tile.png" alt="" width="100%" height="100%">
+        </div>
+        <h6>I implemented this new design system to create my final high fidelity protoype:</h6>
+        <div class="prototypes">
+          <iframe width="600" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOY6PbpAqGXtpvcpQeC7bSy%2FDoI-Redesign%3Fpage-id%3D149%253A2361%26node-id%3D203%253A2141%26viewport%3D210%252C251%252C0.02%26scaling%3Dscale-down%26starting-point-node-id%3D203%253A2141" allowfullscreen></iframe>
+          <iframe width="300" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOY6PbpAqGXtpvcpQeC7bSy%2FDoI-Redesign%3Fpage-id%3D215%253A2646%26node-id%3D235%253A2965%26viewport%3D154%252C232%252C0.03%26scaling%3Dscale-down%26starting-point-node-id%3D235%253A2965" allowfullscreen></iframe>
+        </div>
+    <div class="conclusion">
+        <h2>Concluding Thoughts</h2>
+        <h6>The final iteration of the site was much more successful, with all 5 users tests being completed successfully.</h6>
+        <h6>This project was unique for me since it was my first time designing without acess to any of stakeholders for the organization. This made me more reliant on my own conclusions and user research, which was a valuable experience.</h6>
+    </div>
+</section>
+<footer>
+    <div class="footer-flex">
+      <div class="contact-options">
+        <p id="bold">Get in touch:</p>
+        <p>radharay97@gmail.com</p>
+        <p>(703) 220-4256</p>
+        <a href="https://www.linkedin.com/in/radha-ray-79338211a/" class="linkedin">LinkedIn</a>
+      </div>
+      <button class="scroll"><img src="Images/top scroll.png" alt="Back to Top"></button>
+    </div>
+    <p>Designed by Radha Ray in 2022. All Rights Reserved.</p>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
 </body>
 </html>
