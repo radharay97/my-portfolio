@@ -223,10 +223,9 @@ nav {
 }
 nav > a {padding-inline: 10px;}
 @media only screen and (max-width: 576px) {
-    nav {flex-direction: column;}
     .header-links {display: none;}
     .button-primary {padding: 8px;}
-    .logo {height: 20px;}
+    .logo {height: 30px;}
 }
 /* homepage CSS */
 .hero {
@@ -455,11 +454,12 @@ footer > p {
 }
 /* Case Study CSS */
 .case-study-hero-p90 {
-    height: calc(70vh);
-    width: 100%;
+    height: calc(85vh);
+    width: auto;
     background-image: url(/Images/p90\ hero\ image.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -545,7 +545,6 @@ footer > p {
     display: block;
     width: 60%;
     margin: 16px auto;
-    color: #5a94c1;
 }
 .site-architecture {
     margin-top: 36px;
@@ -595,8 +594,10 @@ footer > p {
     margin-left: auto;
 }
 .prototypes {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 36px;
+    width: fit-content;
 }
 @media only screen and (max-width: 700px) {
     .abstract {
@@ -631,11 +632,12 @@ footer > p {
     .timeline {display:none}
 }
 .case-study-hero-doi {
-    height: calc(70vh);
+    height: calc(85vh);
     width: 100%;
     background-image: url(/Images/doi\ hero\ image.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -676,11 +678,12 @@ footer > p {
     justify-content: space-around;
 }
 .case-study-hero-neighborly {
-    height: calc(70vh);
+    height: calc(85vh);
     width: 100%;
     background-image: url(/Images/Neighborly\ Case\ \ Study\ Thumbnail.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -694,3 +697,17 @@ footer > p {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+.case-study-hero-amitie {
+    height: calc(85vh);
+    width: auto;
+    background-image: url(/Images/Amitie\ Case\ Study\ Thumbnail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.case-study-hero-amitie h1 {margin-left: 8%;}
+.pink {color: #CB8CCE;}
